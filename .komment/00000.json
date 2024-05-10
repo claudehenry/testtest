@@ -1,0 +1,55 @@
+[
+  {
+    "name": "test.java",
+    "path": "test.java",
+    "content": {
+      "structured": {
+        "description": "A class `A` with four instance variables `x`, `y`, `c`, and `d`. It also defines a method `b()` that does nothing.",
+        "items": [
+          {
+            "id": "cc0b7215-633d-eca6-524e-b0007a094bc3",
+            "ancestors": [],
+            "type": "function",
+            "description": "is a Java class that defines four instance variables and one method. The method, b(), is void, indicating it does not return any value. The class also includes four instance variables, x, y, c, and d, which are of type int.",
+            "name": "A",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "class",
+            "length": 7,
+            "docLength": null
+          },
+          {
+            "id": "d8220245-e166-7889-c94b-8c91d804ee0e",
+            "ancestors": [
+              "cc0b7215-633d-eca6-524e-b0007a094bc3"
+            ],
+            "type": "function",
+            "description": "has no functionality as it only contains a single statement `{}` without any content or operation.",
+            "params": [],
+            "usage": {
+              "language": "java",
+              "code": "A obj = new A();\nobj.b();\n",
+              "description": ""
+            },
+            "name": "b",
+            "location": {
+              "start": 2,
+              "insert": 2,
+              "offset": " ",
+              "indent": 2,
+              "comment": null
+            },
+            "item_type": "method",
+            "length": 1,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
