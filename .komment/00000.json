@@ -4,13 +4,13 @@
     "path": "test.java",
     "content": {
       "structured": {
-        "description": "A class `A` with several instance variables and methods. The method `b()` is defined, which does nothing. The class also has instance variables `x`, `g`, `s`, `dd`, `o`, `y`, and `c`. Additionally, there are two instance variables `d`.",
+        "description": "A class named A with several instance variables and methods. The `b()` method is defined within the class, and there are several instance variables including `x`, `g`, `s`, `dd`, `o`, `y`, and `c`. Additionally, there is an integer variable `d` that is not explicitly declared or used anywhere in the code provided. Overall, the code appears to define a simple class with basic properties and methods, though it is unclear what specific purpose it serves without additional context.",
         "items": [
           {
-            "id": "aedf7f0a-cc90-2291-6d48-710a35c8250c",
+            "id": "2aee9c6d-87f5-a5b4-0743-ad2929e0f5fc",
             "ancestors": [],
             "type": "function",
-            "description": "defines a Java object with various fields and a void method for b(). The class has multiple instance variables, including x, g, s, dd, o, y, c, and d.",
+            "description": "defines a Java object with various fields and methods. The class has a void method called b() and several instance variables, including x, g, s, dd, o, y, c, and d.",
             "name": "A",
             "location": {
               "start": 1,
@@ -24,16 +24,16 @@
             "docLength": null
           },
           {
-            "id": "8934a9b1-0320-71a0-b945-10bcc08668ed",
+            "id": "cff18406-3ce4-2e91-3946-4593acf1fdbe",
             "ancestors": [
-              "aedf7f0a-cc90-2291-6d48-710a35c8250c"
+              "2aee9c6d-87f5-a5b4-0743-ad2929e0f5fc"
             ],
             "type": "function",
-            "description": "has no implementation or effect, as it only consists of a void declaration with no body.",
+            "description": "has no implementation or effect, as it only consists of a void return type and an empty body.",
             "params": [],
             "usage": {
               "language": "java",
-              "code": "A obj = new A();\nobj.b();\n",
+              "code": "class Main {\n    public static void main(String[] args) {\n        A a = new A();\n        a.b(); // Calling the method b\n    }\n}\n",
               "description": ""
             },
             "name": "b",
