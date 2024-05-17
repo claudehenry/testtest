@@ -1,12 +1,12 @@
 class Duck {
   /**
-   * @description Initializes class variables and sets up object properties.
+   * @description Initializes class instances by setting properties and calling a
+   * designated initialization method.
    */
   constructor() {}
 
   /**
-   * @description Has no defined name or scope, and its implementation is hidden from
-   * outside access. It returns `undefined` by default.
+   * @description Has no explicit implementation and returns `undefined`.
    */
   quack = () => {}
 }
