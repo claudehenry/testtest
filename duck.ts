@@ -1,4 +1,4 @@
-class Duck {
+export class Duck {
   constructor() {}
 
   quack = () => {}
