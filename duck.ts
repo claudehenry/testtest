@@ -1,11 +1,13 @@
-class Duck {
+export class Duck {
   /**
-   * @description Initializes class variables and sets up any necessary objects or methods.
+   * @description Initializes class components by setting default values for its properties.
    */
   constructor() {}
 
+  
   /**
-   * @description Returns `null`.
+   * @description Has no parameters and returns nothing.
    */
   quack = () => {}
+  
 }
