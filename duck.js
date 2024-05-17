@@ -1,13 +1,12 @@
 class Duck {
   /**
-   * @description Initializes class properties and sets them to default values.
+   * @description Initializes class variables and sets up object properties.
    */
   constructor() {}
 
   /**
-   * @description Performs some operation or computation without any declared name or
-   * scope. It is a generic function that can be used as an argument to other functions
-   * or methods, and its implementation is not visible outside of its definition.
+   * @description Has no defined name or scope, and its implementation is hidden from
+   * outside access. It returns `undefined` by default.
    */
   quack = () => {}
 }
