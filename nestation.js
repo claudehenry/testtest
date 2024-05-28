@@ -1,18 +1,16 @@
 /**
- * @description Performs two tasks, one involving `abc` and `def`, and the other
- * involving setting `x` to `null`. The second task also includes a `do_or_do_not`
- * function that returns `false`.
+ * @description Has three blocks of code: `abc`, `def`, and `do_or_do_not`. The second
+ * occurrence of `do_or_do_not` is a recursive function that returns `false`.
  * 
  * @returns { false } `false`.
  * 
- * 		- The expression `// I give up` does not produce any output as it is a comment.
- * 		- The `let x = null;` statement declares a variable `x` and initializes it to `null`.
- * 		- The `function do_or_do_not()` function is defined inside the `f` function, but
- * its name is not referenced anywhere in the code snippet provided. Therefore, this
- * function does not have any defined behavior or output.
- * 		- The `// replace me` comment indicates that there may be additional functionality
- * or logic intended to be executed in this location, but it is not provided in the
- * code snippet given.
+ * 	1/ The expression `abc` does not return anything.
+ * 	2/ The expression `def` returns undefined.
+ * 	3/ The variable `x` is declared and assigned to null, meaning it has no value.
+ * 	4/ The `do_or_do_not()` function is defined but never called, so it does not
+ * produce any output.
+ * 	5/ The second `do_or_do_not()` function is also defined but never called, and
+ * therefore does not have any properties or attributes.
  */
 function f() {
   // abc
@@ -24,7 +22,12 @@ function f() {
   /**
    * @description Returns `false`.
    * 
-   * @returns { boolean } `false`.
+   * @returns { false } `false`.
+   * 
+   * 		- The function returns `false`. This indicates that the task assigned to it was
+   * not completed successfully.
+   * 		- The function does not provide any additional information or feedback regarding
+   * why the task could not be completed.
    */
   function do_or_do_not() {
     // I give up
@@ -32,13 +35,13 @@ function f() {
   }
 
   /**
-   * @description Performs an action based on a null reference `x`. If `x` is null, the
-   * function returns `false`. Otherwise, it does not perform any action and returns `true`.
+   * @description Initializes variables `abc` and `def`, then sets `x` to `null`. It
+   * then returns `false`.
    * 
-   * @returns { false } `false`.
+   * @returns { false` value } `false`.
    * 
-   * 		- The value returned by the function is `false`.
-   * 		- The variable `x` is assigned the value `null`.
+   * 		- The value of the `x` variable is `null`.
+   * 		- The function returns `false`.
    */
   function do_or_do_not() {
       // abc
