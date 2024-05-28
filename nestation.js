@@ -10,6 +10,9 @@ function f() {
     return false;
   }
 
+  /**
+   * replace me
+   */
   function do_or_do_not() {
       // abc
       
