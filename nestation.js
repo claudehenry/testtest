@@ -1,18 +1,18 @@
 /**
- * @description Performs a series of actions, including setting `x` to `null`, defining
- * two functions `do_or_do_not()` and `do_or_do_not()`, and returning a value based
- * on the outcome of these actions.
+ * @description Performs two tasks, one involving `abc` and `def`, and the other
+ * involving setting `x` to `null`. The second task also includes a `do_or_do_not`
+ * function that returns `false`.
  * 
  * @returns { false } `false`.
  * 
- * 		- The function returns `false` in the `do_or_do_not()` inner function, indicating
- * that it does not return anything.
- * 		- The variable `x` is defined inside the `do_or_do_not()` inner function and
- * assigned the value `null`.
- * 		- There are two lines of comments starting with `/**` and `// I give up`,
- * suggesting that the inner function may be used to implement a logic-based solution
- * to determine whether or not to perform an operation. However, no such implementation
- * is provided in the given code.
+ * 		- The expression `// I give up` does not produce any output as it is a comment.
+ * 		- The `let x = null;` statement declares a variable `x` and initializes it to `null`.
+ * 		- The `function do_or_do_not()` function is defined inside the `f` function, but
+ * its name is not referenced anywhere in the code snippet provided. Therefore, this
+ * function does not have any defined behavior or output.
+ * 		- The `// replace me` comment indicates that there may be additional functionality
+ * or logic intended to be executed in this location, but it is not provided in the
+ * code snippet given.
  */
 function f() {
   // abc
@@ -22,7 +22,7 @@ function f() {
   let x = null;
 
   /**
-   * @description Evaluates to `false`.
+   * @description Returns `false`.
    * 
    * @returns { boolean } `false`.
    */
@@ -32,7 +32,13 @@ function f() {
   }
 
   /**
-   * replace me
+   * @description Performs an action based on a null reference `x`. If `x` is null, the
+   * function returns `false`. Otherwise, it does not perform any action and returns `true`.
+   * 
+   * @returns { false } `false`.
+   * 
+   * 		- The value returned by the function is `false`.
+   * 		- The variable `x` is assigned the value `null`.
    */
   function do_or_do_not() {
       // abc
