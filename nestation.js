@@ -1,16 +1,20 @@
 /**
- * @description Has three blocks of code: `abc`, `def`, and `do_or_do_not`. The second
- * occurrence of `do_or_do_not` is a recursive function that returns `false`.
+ * @description Has three parts: it initializes `x` to `null`, defines two functions,
+ * `do_or_do_not1` and `do_or_do_not2`, and returns `false`.
  * 
- * @returns { false } `false`.
+ * @returns { false` value } "abc".
  * 
- * 	1/ The expression `abc` does not return anything.
- * 	2/ The expression `def` returns undefined.
- * 	3/ The variable `x` is declared and assigned to null, meaning it has no value.
- * 	4/ The `do_or_do_not()` function is defined but never called, so it does not
- * produce any output.
- * 	5/ The second `do_or_do_not()` function is also defined but never called, and
- * therefore does not have any properties or attributes.
+ * 	1/ `abc`: The code inside this block is not present in the output of the function.
+ * Therefore, it has no effect on the final result.
+ * 	2/ `def`: Similar to the previous point, the code inside this block does not
+ * affect the output of the function.
+ * 	3/ `x = null;`: This line sets the variable `x` to `null`, indicating that its
+ * value is not present in the output.
+ * 	4/ `do_or_do_not(): In this function, a return statement is present, but no
+ * explicit value is returned. Therefore, the function will always return `false`.
+ * 	5/ The inner block of code within the `do_or_do_not()` function has the same
+ * properties as the outer block. However, since the inner block is not explicitly
+ * returning any value, it does not affect the output of the function.
  */
 function f() {
   // abc
@@ -22,12 +26,10 @@ function f() {
   /**
    * @description Returns `false`.
    * 
-   * @returns { false } `false`.
+   * @returns { false` value } `false`.
    * 
-   * 		- The function returns `false`. This indicates that the task assigned to it was
-   * not completed successfully.
-   * 		- The function does not provide any additional information or feedback regarding
-   * why the task could not be completed.
+   * 		- Return value: The function returns a boolean value indicating whether it has
+   * do something or not, which is always `false`.
    */
   function do_or_do_not() {
     // I give up
@@ -35,13 +37,12 @@ function f() {
   }
 
   /**
-   * @description Initializes variables `abc` and `def`, then sets `x` to `null`. It
-   * then returns `false`.
+   * @description Determines whether a null value `x` is assigned. It does so by returning
+   * `false`.
    * 
-   * @returns { false` value } `false`.
+   * @returns { false } `false`.
    * 
-   * 		- The value of the `x` variable is `null`.
-   * 		- The function returns `false`.
+   * 		- `x`: A null value is returned.
    */
   function do_or_do_not() {
       // abc
