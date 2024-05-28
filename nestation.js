@@ -1,9 +1,18 @@
 /**
- * @description Has two inner functions, `do_or_do_not`, which both return `false`.
- * The outer function `do_or_do_not` sets a variable `x` to `null` before calling the
- * inner functions.
+ * @description Performs a series of actions, including setting `x` to `null`, defining
+ * two functions `do_or_do_not()` and `do_or_do_not()`, and returning a value based
+ * on the outcome of these actions.
  * 
- * @returns { boolean } `false`.
+ * @returns { false } `false`.
+ * 
+ * 		- The function returns `false` in the `do_or_do_not()` inner function, indicating
+ * that it does not return anything.
+ * 		- The variable `x` is defined inside the `do_or_do_not()` inner function and
+ * assigned the value `null`.
+ * 		- There are two lines of comments starting with `/**` and `// I give up`,
+ * suggesting that the inner function may be used to implement a logic-based solution
+ * to determine whether or not to perform an operation. However, no such implementation
+ * is provided in the given code.
  */
 function f() {
   // abc
@@ -23,16 +32,7 @@ function f() {
   }
 
   /**
-   * @description Is a void function that returns false when an attempt to evaluate its
-   * body results in an error or null reference.
-   * 
-   * @returns { false } `false`.
-   * 
-   * 		- `x`: A null value is returned when the function reaches the final statement
-   * "I give up". This indicates that the function was unable to complete its execution
-   * successfully.
-   * 		- `false`: The returned value is `false`, indicating that the function did not
-   * execute successfully.
+   * replace me
    */
   function do_or_do_not() {
       // abc
