@@ -1,0 +1,53 @@
+[
+  {
+    "name": "bat.java",
+    "path": "bat.java",
+    "content": {
+      "structured": {
+        "description": "A class `A` with a single method `B()`. The method has no parameters and does nothing, making it a \"empty\" method. The class likely serves as a container for other classes or methods that use the `B()` method.",
+        "items": [
+          {
+            "id": "9dd6e926-063c-f793-cd47-b3ce59607aa2",
+            "ancestors": [],
+            "description": "Contains a single method, B(), which is declared without any parameters.",
+            "name": "A",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "class",
+            "length": 3,
+            "docLength": null
+          },
+          {
+            "id": "2c152991-b73c-4aba-bd47-789b00a36b35",
+            "ancestors": [
+              "9dd6e926-063c-f793-cd47-b3ce59607aa2"
+            ],
+            "description": "Does nothing and has no effect on the program's behavior. It is a null function.",
+            "params": [],
+            "usage": {
+              "language": "java",
+              "code": "class Main {\n  public static void main(String[] args) {\n    A obj = new A();\n    obj.B();\n  }\n}\n",
+              "description": ""
+            },
+            "name": "B",
+            "location": {
+              "start": 2,
+              "insert": 2,
+              "offset": " ",
+              "indent": 2,
+              "comment": null
+            },
+            "item_type": "method",
+            "length": 1,
+            "docLength": null
+          }
+        ]
+      }
+    }
+  }
+]
