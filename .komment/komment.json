@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "version": "1",
+    "updated_at": "2024-07-03T21:17:48.370Z",
+    "created_at": "2024-07-03T21:17:49.179Z",
+    "pipelines": [
+      "daeb7a1c-edf1-4934-97c7-8d3a9e933d7a"
+    ]
+  },
+  "lookup": [
+    [
+      "bat.java"
+    ]
+  ]
+}
