@@ -1,0 +1,98 @@
+[
+  {
+    "name": "nestation.js",
+    "path": "nestation.js",
+    "content": {
+      "structured": {
+        "description": "Two nested functions `do_or_do_not()` and `do_or_do_not()`, both of which return false. The inner function uses a variable `x` that is assigned to null, and does not appear to perform any meaningful operations. The outer function `f()` declares no variables but calls the inner function twice with different implementations, neither of which appears to achieve anything significant. Overall, the code seems to be incomplete or nonsensical.",
+        "items": [
+          {
+            "id": "a24d1188-3305-4d86-3340-0d45cebd0078",
+            "ancestors": [],
+            "description": "* Declares a variable `x` and sets it to `null`.\n* Calls `do_or_do_not()` twice, returning `false` on both occasions.",
+            "params": [],
+            "returns": {
+              "type_name": "boolean",
+              "description": "`false`."
+            },
+            "usage": {
+              "language": "javascript",
+              "code": "f();\n",
+              "description": ""
+            },
+            "name": "f",
+            "location": {
+              "start": 1,
+              "insert": 1,
+              "offset": " ",
+              "indent": 0,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 25,
+            "docLength": null
+          },
+          {
+            "id": "6472d99f-6b3a-ccab-8a49-c999efa64c9a",
+            "ancestors": [
+              "a24d1188-3305-4d86-3340-0d45cebd0078"
+            ],
+            "description": "Returns `false` indicating the user has given up or abandoned their task.",
+            "params": [],
+            "returns": {
+              "type_name": "boolean",
+              "description": "`false`."
+            },
+            "usage": {
+              "language": "javascript",
+              "code": "do_or_do_not()\n",
+              "description": ""
+            },
+            "name": "do_or_do_not",
+            "location": {
+              "start": 8,
+              "insert": 8,
+              "offset": " ",
+              "indent": 2,
+              "comment": null
+            },
+            "item_type": "function",
+            "length": 4,
+            "docLength": null
+          },
+          {
+            "id": "3718fb15-bcfc-9f9a-e84c-1598e5a92844",
+            "ancestors": [
+              "a24d1188-3305-4d86-3340-0d45cebd0078"
+            ],
+            "description": "Evaluates to `false`. It initializes a variable `x` to `null`, then executes an expression that is not explicitly provided, resulting in an error message.",
+            "params": [],
+            "returns": {
+              "type_name": "boolean",
+              "description": "False."
+            },
+            "usage": {
+              "language": "javascript",
+              "code": "const result = do_or_do_not();\nif (result === true) {\n    // Do something\n} else if (result === false) {\n    // Do something else\n} else {\n    // Handle error\n}\n",
+              "description": ""
+            },
+            "name": "do_or_do_not",
+            "location": {
+              "start": 16,
+              "insert": 13,
+              "offset": " ",
+              "indent": 2,
+              "comment": {
+                "start": 12,
+                "end": 15
+              }
+            },
+            "item_type": "function",
+            "length": 9,
+            "docLength": 3
+          }
+        ]
+      }
+    }
+  }
+]
